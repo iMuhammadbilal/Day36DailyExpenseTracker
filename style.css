@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    max-width: 40%;
+    margin: 20px auto;
+    font-family: sans-serif;
+    /* padding: 3rem; */
+}
+
+.input-area, .expense-list, .total-expense {
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 2px solid #1a1717;
+    font-size: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
